@@ -17,6 +17,16 @@
     font-size: 20px;
   
 }
+.btn_wh{
+    background: white;
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    border: 0;
+    border-radius: 5px;
+}
 
 /* Header start */
 
@@ -94,7 +104,7 @@ main{
 
 /* My Plans Start */
 .MyPlans{
-    background-color: tomato;
+    /* background-color: tomato; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,4 +123,33 @@ main{
 }
 /* My Plans End */
 
+/* Watch Image Start */
+.WatchImage{
+    background: url('../Assets/images/gradient2.png'),url('../Assets/images/watch.png');
+
+    width: 1140px;
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+}
+.bgg{
+    opacity: 0.8;
+}
+.WatchContent{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 182px; 
+    margin-left: 64px;
+}
+.watchtitle{
+    font-weight: 700;
+    font-size: 40px;
+    width: 450px;
+    color: white;
+    line-height: 3.5rem;
+    margin-bottom:  20px ;
+}
+/* Watch Image End */
 /* main end */
