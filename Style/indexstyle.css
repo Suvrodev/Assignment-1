@@ -15,6 +15,7 @@
     border: 0;
     color: white;
     font-size: 20px;
+    font-weight: 700;
   
 }
 .btn_wh{
@@ -26,6 +27,7 @@
     color: #F15B22;
     border: 0;
     border-radius: 5px;
+    font-weight: 700;
 }
 
 /* Header start */
@@ -57,6 +59,7 @@
     font-size: 16px;
     line-height: 1.5rem;
     margin:20px 0;
+    color: #444343;
 }
 /* Banner end */
 
@@ -93,11 +96,13 @@ main{
     height: 104px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.8rem;
+    line-height: 1.5rem;
+    color: #444343;
 }
 .Desc_Down li{
     list-style: none;
     line-height: 2.2rem;
+    color: #444343;
 }
 /* Main start class end */
 
@@ -107,19 +112,33 @@ main{
     /* background-color: tomato; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 80px 0;
+}
+.MyPlans h1{
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
 }
 .box{
-    margin: 20px 0;
+    /* background-color: teal; */
+    margin: 30px 0px;
     display: flex;
     gap: 80px;
+    justify-content: space-around;
 }
 .Shape{
     text-align: center;
 }
 .Shape h3{
     margin: 10px 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+.Shape p{
+    color: #737272;
 }
 /* My Plans End */
 
@@ -131,10 +150,11 @@ main{
     margin: 20px auto;
     display: flex;
     align-items: center;
+    margin-bottom: 40px;
 }
-.bgg{
+/* .bgg{
     opacity: 0.8;
-}
+} */
 .WatchContent{
     display: flex;
     flex-direction: column;
@@ -169,6 +189,7 @@ footer{
     height: 317px;
     /* background-color: gray; */
     padding: 10px;
+    padding-left:120px ;
 }
 .Left_Title{
     font-weight: 700;
@@ -185,6 +206,15 @@ footer{
 .left_phn{
     margin: 20px 0;
 }
+.left_icon{
+    display: flex;
+    gap: 10px;
+}
+.lc{
+    width: 46px;
+    height: 45px;
+   
+}
 .Right{
     width: 50%;
     display: flex;
@@ -198,10 +228,10 @@ footer{
     padding: 10px;
     display: flex;
     flex-direction: column;
-   
+    padding-left:120px ;
 }
 .Right_Title{
-
+   
 }
 .right_email{
     width: 325px;
