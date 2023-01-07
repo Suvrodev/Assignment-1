@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    font-family: 'Work Sans', sans-serif;
+   font-family: 'Work Sans';
 }
 .Container{
     /* background-color: lightseagreen; */
@@ -77,13 +77,20 @@ main{
 .MainStart{
     display: flex;
     align-items: center;
+    justify-content:space-around;
+    width: 80%;
+    margin: auto;
 }
-.clrr{
+.mark_Color{
     color: greenyellow;
 }
 .Desc{
     width: 416px;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* background-color: tomato; */
 }
 .Desc_Title{
     font-weight: 700;
@@ -98,6 +105,9 @@ main{
     font-size: 16px;
     line-height: 1.5rem;
     color: #444343;
+}
+.Desc_Down{
+    margin-left: -40px;
 }
 .Desc_Down li{
     list-style: none;
@@ -139,6 +149,7 @@ main{
 }
 .Shape p{
     color: #737272;
+    font-size: 25px;
 }
 /* My Plans End */
 
